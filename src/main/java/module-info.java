@@ -3,6 +3,6 @@ module space.test.calculator_ui {
     requires javafx.fxml;
 
 
-    opens space.test.calculator_ui to javafx.fxml;
-    exports space.test.calculator_ui;
+    opens space.dev.calculator_ui to javafx.fxml;
+    exports space.dev.calculator_ui;
 }
